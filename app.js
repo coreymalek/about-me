@@ -50,7 +50,7 @@ if (response4 === answer4 || response4 === answer4[0]) {
   alert('Incorrect. I\'m a one dog guy as of right now.');
 }
 
-var response5 = prompt('Ok last question.. Does Biggie Smalls love it when you call him Big Papa?').toLowerCase();
+var response5 = prompt('Does Biggie Smalls love it when you call him Big Papa?').toLowerCase();
 var answer5 = 'yes';
 
 if (response5 === answer5 || response5 === answer5[0]) {
@@ -59,4 +59,30 @@ if (response5 === answer5 || response5 === answer5[0]) {
   alert('Aw cmon, I know you know it!');
 }
 
+var answer6 = 2;
+
+/*if (answer6 < 2) {
+  alert('Too low!');
+} else if (answer6 > 2){
+  alert('Too high!');
+} else {
+  alert('Correct!');
+}*/
+
+var userAttempt = 0;
+while (userAttempt < 5) {
+  var response6 = prompt('How many siblings do I have?');
+  if (response6 < 2) {
+    alert('Too low');
+    console.log('User answered too low');
+  } else if (response6 > 2) {
+    alert('Too high');
+    console.log('User answered too high');
+  } else {
+    alert('Correct!');
+    break;
+    console.log('User answered correctly');
+  }
+  userAttempt++;
+}
 alert('Thanks for playing!');
