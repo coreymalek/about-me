@@ -1,3 +1,107 @@
-*{
-  color: blue;
+h1 {
+  color: #1183E1;
+  text-align: center;
+  font-family: cursive;
+  font-size: 75px;
+  text-shadow: 3px 3px 1px #035599;
+
 }
+
+
+html {
+  background-image: url(http://www.newdesignfile.com/postpic/2009/04/mac-os-x-desktop-icons_9413.png);
+  background-size: cover;
+}
+
+
+body {
+  color: white;
+
+
+}
+
+
+.goals {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+
+
+
+
+}
+
+.bio {
+  text-align: center;
+  font-family: sans-serif;
+
+
+}
+
+.education {
+  text-align: center;
+  font-family: sans-serif;
+  display: inline-block;
+
+
+
+}
+
+#box1 {
+  text-align: center;
+
+
+}
+
+
+#box2 {
+    text-align: center;
+
+}
+.workex {
+  text-align: center;
+  font-family: sans-serif;
+  display:inline-block;
+
+
+}
+
+.links {
+  text-align: left;
+  font-family: sans-serif;
+
+
+
+}
+
+a:link {
+  color: #009484;
+
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: #EE2900;
+}
+
+h6 {
+  color: #052CA1;
+  font-family:fantasy;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/*.contact {
+  text-align: left;
+  font-family: fantasy;
+  font-size: 15px;
+  font-weight: bolder;
+  color: red;
+
+
+
+}*/
