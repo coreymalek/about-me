@@ -70,8 +70,8 @@ var answer6 = 2;
 }*/
 
 var userAttempt = 0;
-while (userAttempt < 5) {
-  var response6 = prompt('How many siblings do I have?');
+while (userAttempt < 4) {
+  var response6 = parseInt(prompt('How many siblings do I have?'));
   if (response6 < 2) {
     alert('Too low');
     console.log('User answered too low');
@@ -84,5 +84,24 @@ while (userAttempt < 5) {
     console.log('User answered correctly');
   }
   userAttempt++;
+}
+
+var cars = ['jeep','ford','toyota'];
+var userGuess = 0;
+while (userGuess < 6) {
+  var response7 = prompt('Can you guess a MAKE of car that I have driven?');
+  if (response7 === cars[0]){
+    alert('Correct!');
+    break;
+  } else if (response7 === cars[1]){
+    alert('Correct!');
+    break;
+  } else if (response7 === cars[2]){
+    alert('Correct!');
+    break;
+  } else {
+    alert('Sorry, that\'s wrong!');
+  }
+  userGuess++;
 }
 alert('Thanks for playing!');
