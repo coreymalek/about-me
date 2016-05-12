@@ -9,7 +9,7 @@ h1 {
 
 
 html {
-  background-image: url(http://www.newdesignfile.com/postpic/2009/04/mac-os-x-desktop-icons_9413.png);
+  background: linear-gradient(#B67D21, #d0d0d0);
   background-size: cover;
 }
 
@@ -23,8 +23,8 @@ body {
 
 .goals {
   text-align: center;
-  font-family: sans-serif;
   font-size: 15px;
+
 
 
 
@@ -33,18 +33,25 @@ body {
 
 .bio {
   text-align: center;
-  font-family: sans-serif;
+
+
 
 
 }
 
 .education {
   text-align: center;
-  font-family: sans-serif;
+
   display: inline-block;
 
 
 
+}
+
+.movies {
+  text-align: center;
+  display: inline-block;
+  font-family: fantasy;
 }
 
 #box1 {
@@ -58,29 +65,43 @@ body {
     text-align: center;
 
 }
+
+#box3 {
+  text-align: center;
+}
+
+#box4 {
+  text-align: center;
+  display: inline;
+
+}
+
+#font {
+  font-family: Times;
+}
 .workex {
   text-align: center;
-  font-family: sans-serif;
+
   display:inline-block;
 
 
 }
 
 .links {
-  text-align: left;
-  font-family: sans-serif;
+  text-align: center;
+
 
 
 
 }
 
 a:link {
-  color: #009484;
+  color: white;
 
 }
 
 a:visited {
-  color: purple;
+  color: white;
 }
 
 a:hover {
@@ -88,12 +109,28 @@ a:hover {
 }
 
 h6 {
-  color: #052CA1;
-  font-family:fantasy;
+  color: #1183E1;
+  font-family:cursive;
   font-size: 15px;
   text-align: center;
+  text-shadow: 1px 1px 1px white;
 }
 
+#images {
+  display:inline-block;
+  box-sizing: content-box;
+
+}
+.li1 {
+
+
+}
+
+.li2 {
+
+
+
+}
 
 /*.contact {
   text-align: left;
