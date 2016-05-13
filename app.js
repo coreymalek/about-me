@@ -21,55 +21,52 @@ function yesNoQuestions(){
 }
 yesNoQuestions();
 //+++++++++++++++++++++++++++++++++
-var answer6 = 2;
-if (answer6 < 2) {
-  alert('Too low!');
-} else if (answer6 > 2){
-  alert('Too high!');
-} else {
-  alert('Correct!');
-}
-
-var userAttempt = 0;
-while (userAttempt < 4) {
-  var response6 = parseInt(prompt('How many siblings do I have?'));
-  if (response6 < 2) {
-    alert('Too low');
-    console.log('User answered too low');
-  } else if (response6 > 2) {
-    alert('Too high');
-    console.log('User answered too high');
-  } else {
-    alert('Correct!');
-    (counter += 1);
-    break;
-    console.log('User answered correctly');
+function questionSix(){
+  var userAttempt = 0;
+  while (userAttempt < 4) {
+    var response6 = parseInt(prompt('How many siblings do I have?'));
+    if (response6 < 2) {
+      alert('Too low');
+      console.log('User answered too low');
+    } else if (response6 > 2) {
+      alert('Too high');
+      console.log('User answered too high');
+    } else {
+      alert('Correct!');
+      (counter += 1);
+      break;
+      console.log('User answered correctly');
+    }
+    userAttempt++;
   }
-  userAttempt++;
 }
-
-var cars = ['jeep','ford','toyota'];
-var userGuess = 0;
-while (userGuess < 6) {
-  var response7 = prompt('Can you guess a MAKE of car that I have driven?').toLowerCase();
-  if (response7 === cars[0]){
-    alert('Correct!');
-    (counter += 1);
-    break;
-  } else if (response7 === cars[1]){
-    alert('Correct!');
-    (counter += 1);
-    break;
-  } else if (response7 === cars[2]){
-    alert('Correct!');
-    (counter += 1);
-    break;
-  } else {
-    alert('Sorry, that\'s wrong!');
+questionSix();
+//++++++++++++++++++++
+function questionSeven(){
+  var cars = ['jeep','ford','toyota'];
+  var userGuess = 0;
+  while (userGuess < 6) {
+    var response7 = prompt('Can you guess a MAKE of car that I have driven?').toLowerCase();
+    if (response7 === cars[0]){
+      alert('Correct!');
+      (counter += 1);
+      break;
+    } else if (response7 === cars[1]){
+      alert('Correct!');
+      (counter += 1);
+      break;
+    } else if (response7 === cars[2]){
+      alert('Correct!');
+      (counter += 1);
+      break;
+    } else {
+      alert('Sorry, that\'s wrong!');
+    }
+    userGuess++;
   }
-  userGuess++;
 }
-
+questionSeven();
+//+++++++++++++++++++
 alert('Thanks for playing, ' + userName + '! You earned a score of ' + counter + ' out of 7 possible points!');
 
 if (counter === 7) {
