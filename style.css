@@ -1,3 +1,11 @@
+html {
+  background: linear-gradient(#B67D21, #d0d0d0);
+  background-size: cover;
+}
+
+
+
+
 h1 {
   color: #1183E1;
   text-align: center;
@@ -8,10 +16,7 @@ h1 {
 }
 
 
-html {
-  background: linear-gradient(#B67D21, #d0d0d0);
-  background-size: cover;
-}
+
 
 
 body {
@@ -122,15 +127,50 @@ h6 {
 
 }
 .li1 {
-
+list-style-type: none;
 
 }
 
 .li2 {
-
+list-style-type: none;
 
 
 }
+
+.li3 {
+  list-style-type: none;
+}
+
+.li4 {
+  list-style-type: none;
+}
+
+.li5{
+  list-style-type: none;
+}
+
+.li6 {
+  list-style-type: none;
+
+}
+
+.li7 {
+  list-style-type: none;
+}
+
+.li8 {
+  list-style-type: none;
+
+}
+
+.li9{
+  list-style-type: none;
+}
+
+.li10{
+  list-style-type: none;
+}
+
 
 /*.contact {
   text-align: left;
